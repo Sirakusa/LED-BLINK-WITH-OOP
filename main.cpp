@@ -48,6 +48,7 @@ int main() {
     secRapida.numeroLeds(4);
     secRapida.tiemDelay(500);
     secRapida.secuenciaLeds(5, 0); // 5 corriminetos de derecha a izquierda
+    secRapida.tiemDelay(100);
     secRapida.secuenciaLeds(5, 1); // 5 corriminetos de izquierda a derecha
   }
 }
